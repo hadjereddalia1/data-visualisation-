@@ -3,14 +3,32 @@ pandas==1.5.3
 seaborn==0.12.2
 matplotlib==3.7.0
 plotly==5.10.0
-scikit-learn>=1.2.0
+scikit-learn==1.6.1
 numpy>=1.23.2
 Cython==0.29.34
 setuptools==65.5.0
 wheel==0.37.1
-scipy>=1.9.0  # Ensure scipy is installed before statsmodels
+scipy==1.15.1
 pybind11==2.10.1
-statsmodels==0.14.1  # Updated to fix Python 3.12 compatibility
-altair==5.0.1  # Added to fix missing altair module
+statsmodels==0.14.1
+altair==4.2.2  # Downgraded to fix the issue
+toolz==1.0.0
+requests==2.32.3
+rich==13.9.4
+rpds-py==0.22.3
+semver==3.0.4
+six==1.17.0
+smmap==5.0.2
+tenacity==9.0.0
+threadpoolctl==3.5.0
+toml==0.10.2
+tornado==6.4.2
+typing-extensions==4.12.2
+tzlocal==5.2
+urllib3==2.3.0
+validators==0.34.0
+watchdog==6.0.0
+zipp==3.21.0
+
 
 
